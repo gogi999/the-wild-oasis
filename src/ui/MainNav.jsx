@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {
   HiOutlineCalendarDays,
   HiOutlineCog6Tooth,
@@ -60,28 +58,33 @@ function MainNav() {
     <nav>
       <NavList>
         <li>
-          <StyledNavLink href="/dashboard">
-            <HiOutlineHome /> <span>Home</span>
+          <StyledNavLink to="/dashboard">
+            <HiOutlineHome />
+            <span>Home</span>
           </StyledNavLink>
         </li>
         <li>
-          <StyledNavLink href="/bookings">
-            <HiOutlineCalendarDays /> <span>Bookings</span>
+          <StyledNavLink to="/bookings">
+            <HiOutlineCalendarDays />
+            <span>Bookings</span>
           </StyledNavLink>
         </li>
         <li>
-          <StyledNavLink href="/cabins">
-            <HiOutlineHomeModern /> <span>Cabins</span>
+          <StyledNavLink to="/cabins">
+            <HiOutlineHomeModern />
+            <span>Cabins</span>
           </StyledNavLink>
         </li>
         <li>
-          <StyledNavLink href="/users">
-            <HiOutlineUsers /> <span>Users</span>
+          <StyledNavLink to="/users">
+            <HiOutlineUsers />
+            <span>Users</span>
           </StyledNavLink>
         </li>
         <li>
-          <StyledNavLink href="/settings">
-            <HiOutlineCog6Tooth /> <span>Settings</span>
+          <StyledNavLink to="/settings">
+            <HiOutlineCog6Tooth />
+            <span>Settings</span>
           </StyledNavLink>
         </li>
       </NavList>
@@ -90,4 +93,3 @@ function MainNav() {
 }
 
 export default MainNav;
-
