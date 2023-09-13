@@ -1,3 +1,4 @@
+import { Toaster } from 'react-hot-toast';
 import {
   BrowserRouter,
   Navigate,
@@ -54,7 +55,7 @@ function App() {
         </Routes>
       </BrowserRouter>
 
-      {/* <Toaster
+      <Toaster
         position="top-center"
         gutter={12}
         containerStyle={{ margin: "8px" }}
@@ -73,7 +74,7 @@ function App() {
             color: "var(--color-grey-700)",
           },
         }}
-      /> */}
+      /> 
     </QueryClientProvider>
   );
 }
