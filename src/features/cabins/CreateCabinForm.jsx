@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import Button from '../../ui/Button';
 import FileInput from '../../ui/FileInput';
 import Form from '../../ui/Form';
-import FormRow from '../../ui/FormRow';
+import FormRow from '../../ui/FormRowVertical';
 import Input from '../../ui/Input';
 import Textarea from '../../ui/Textarea';
 import { useCreateCabin } from './useCreateCabin';
